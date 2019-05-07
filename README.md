@@ -1,3 +1,31 @@
+#Project 
+
+This project was made for angular&rxjs demo purpose. Made by Erik Oravec...
+
+# Leírás
+
+A feladatod egy könyveket áruló webáruház kliensoldalának elkészítése. 
+
+A következő elvárásoknak kell megfelelnie:
+
+A “főoldal” tartalmazzon egy kereső mezőt, melybe beírt szöveg alapján jelenítse meg azon könyveket, amelyek címe tarmalmazza a keresett kifejezést.
+A "főoldal" tartalmazzon egy gombot "multi search", ami lenyit egy újabb keresőmezőt, ezúttal több könyv címét is meg lehet adni vesszővel elválasztva, és ezúttal több http requestet elküldve parallel, majd kapjuk vissza a könyveket, amelyeket kilistázzuk egyszerre. (Itt kifejezetten egy rxjs-es megoldast varok:)) )
+A megjelenített könyvek címére kattinva a weboldal váltson át a kiválasztott könyv részleteit (cím, író, leírás, borítókép) megjelenítő oldalra.
+Minden megjelenített könyvnél legyen lehetőség kosárba rakni azt.
+Az alkalmazás bármely oldalára navigálva mindig látható egy Cart "widget" ami mutatja hány elem van jelenleg a kosarunkban és rákattintva a Kosár oldalra navigálunk
+A kosárba rakott könyvek legyenek megtekinthetőek.
+Az oldal újratöltése esetén “jegyezze meg” a kosár tartalmát.
+
+Segítség:
+
+A tudásod szerint lehető legjobb megoldásra törekedj, azonban, ha valamire nem jut időd csak jelöld meg a kódban.
+A könyvek lekérdezéséhez használd a Google Books API-t. (https://developers.google.com/books/docs/v1/getting_started)
+A kosárba rakott könyveket elegendő a lehető legegyszerűbb módon kliens oldalon tárolni.
+Törekedj könnyen olvasható és érthető kód írására.
+Ahol lehet használj funkcionális megoldást, rxjs-t, vagy bármilyen advanced megoldást, ami szerinted illik oda
+Figyelj a megfelelő felelősségi körök, komponensek elosztására.
+Ne tölts túl sok időt a megoldás kinézetének igazgatásával. (használj nyugodtan Bootstrap css-t, angular materialt)
+
 # BookShop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
