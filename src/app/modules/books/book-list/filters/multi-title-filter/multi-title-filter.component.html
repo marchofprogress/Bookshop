@@ -1,0 +1,23 @@
+<button mat-raised-button color="primary" (click)="multibutton = !multibutton">
+  multikeres
+</button>
+
+<form (submit)="multisearch(inputForm)" #inputForm="ngForm">
+  <div *ngIf="multibutton">
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Keresés"
+        type="text"
+        ngModel
+        name="title"
+        required
+        minlength="3"
+        #title="ngModel"
+      />
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit" matTooltip="A címeket ;-vel kell elválasztani!">
+      Multi keres
+    </button>
+  </div>
+</form>

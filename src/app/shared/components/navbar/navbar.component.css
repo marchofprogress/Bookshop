@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    right: 5%;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  #cart{
+    top: 5px;
+  }

@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span>
+    <a routerLink="/">Főoldal</a>
+  </span>
+  <span class="spacer"></span>
+  <ul>
+      <li #cart>
+          <app-book-cart></app-book-cart>
+        </li>
+    <li>
+      <a mat-button routerLink="/cart" routerLinkActive="mat-accent">Kosár</a>
+    </li>
+
+  </ul>
+</mat-toolbar>

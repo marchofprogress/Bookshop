@@ -1,0 +1,29 @@
+<div (mouseenter)="mouseEnter()" (mouseleave)="mouseLeave()">
+  <mat-icon
+    matBadge="{{ cart.length }}"
+    matBadgeColor="warn"
+    color="accent"
+    style="cursor: pointer;"
+    >shopping_cart</mat-icon
+  >
+  <mat-card
+    *ngIf="cartDetails"
+  >
+  <mat-card-title>Kosár tartalma</mat-card-title>
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        [routerLink]="['/details', c.id]"
+        *ngFor="let c of cart; trackBy: trackByFn"
+      >
+        {{ c.title
+        }}<mat-icon
+          color="warn"
+          style="cursor: pointer;"
+          (click)="onItemDelete(c.id)"
+          >delete</mat-icon
+        >
+      </li>
+    </ul>
+  </mat-card>
+</div>

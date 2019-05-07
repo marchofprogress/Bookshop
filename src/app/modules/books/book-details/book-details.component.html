@@ -1,0 +1,26 @@
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+<mat-card *ngIf="!isLoading">
+  <mat-card-header>
+    <mat-card-title>{{book.title}}</mat-card-title>
+    <mat-card-subtitle><span *ngFor="let author of book.authors;">{{author}} <br></span></mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="{{book.thumbnail}}"
+    alt="thumbnail of the book"
+  />
+  <mat-card-content >
+    <p>
+      {{book.description}}
+    </p>
+    <p *ngIf=book.price>
+        Ár: {{book.price}} {{book.currency}}
+      </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <div *ngIf=book.price>
+        <button mat-raised-button color="primary" (click)="addToCart(book)">Add to cart</button>
+    </div>
+    <mat-error *ngIf=!book.price>Nem kapható a régiódban</mat-error>
+  </mat-card-actions>
+</mat-card>

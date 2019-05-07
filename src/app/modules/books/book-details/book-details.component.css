@@ -1,0 +1,19 @@
+mat-card {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin:auto;
+  }
+
+  img{
+    width: 50%
+  }
+  
+  mat-card-header{
+    text-align: center;
+    justify-content: center;
+  }
+
+  mat-spinner{
+    margin: auto;
+  }
