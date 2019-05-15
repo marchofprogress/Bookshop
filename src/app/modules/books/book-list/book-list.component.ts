@@ -1,25 +1,25 @@
-import { Component, OnInit, ElementRef, OnDestroy, Input } from "@angular/core";
+import {Component, OnDestroy, OnInit} from '@angular/core';
 
-import { BooksService } from "../books.service";
+import {BooksService} from '../books.service';
 
-import { Subscription, Observable, fromEvent, Subject } from "rxjs";
+import {fromEvent, Observable, Subject} from 'rxjs';
 import {
-  debounceTime,
-  distinctUntilChanged,
-  map,
-  toArray,
-  takeUntil,
-  switchMap,
-  filter,
-  tap
-} from "rxjs/operators";
-import { Book } from "../../../shared/models/book.model";
-import { ShoppingCartService } from "src/app/modules/books/book-cart/shopping-cart.service";
+    debounceTime,
+    distinctUntilChanged,
+    filter,
+    map,
+    switchMap,
+    takeUntil,
+    tap,
+    toArray
+} from 'rxjs/operators';
+import {Book} from '../../../shared/models/book.model';
+import {ShoppingCartService} from 'src/app/modules/books/book-cart/shopping-cart.service';
 
 @Component({
-  selector: "app-book-list",
-  templateUrl: "./book-list.component.html",
-  styleUrls: ["./book-list.component.css"]
+  selector: 'app-book-list',
+  templateUrl: './book-list.component.html',
+  styleUrls: ['./book-list.component.css']
 })
 export class BookListComponent implements OnInit, OnDestroy {
   books: Book[] = [];
@@ -49,9 +49,9 @@ export class BookListComponent implements OnInit, OnDestroy {
   }
 
   // search by 1 title
-  simpleTitleSearch($event: string) {
+  simpleTitleSearch(event: string) {
     this.booksService
-      .getBookByTitle($event)
+      .getBookByTitle(event)
       .pipe(
         tap( () => this.isLoading = true),
         takeUntil(this.destroy$))
@@ -64,9 +64,9 @@ export class BookListComponent implements OnInit, OnDestroy {
   }
 
   // search by more titles with dividing by ;
-  multiTitleSearch($event: string) {
-    console.log($event);
-    this.multibooks = $event.split(";");
+  multiTitleSearch(event: string) {
+    console.log(event);
+    this.multibooks = event.split(';');
     this.booksService
       .getMultipleBooks(this.multibooks)
       .pipe(
@@ -86,19 +86,18 @@ export class BookListComponent implements OnInit, OnDestroy {
   }
 
   // searching without pressing enter
-  runningTitleSearch($event: HTMLInputElement) {
-    const input = $event;
-    const keypress: Observable<Event> = fromEvent(input, "keyup");
-    const keyValue = keypress.pipe(
-      map(event => (<HTMLInputElement>event.target).value)
+  runningTitleSearch(event: HTMLInputElement) {
+      const keypress: Observable<Event> = fromEvent(event, 'keyup');
+      const keyValue = keypress.pipe(
+      map(pressEvent => (pressEvent.target as HTMLInputElement).value)
     );
     // subscribe to the key pressing observable and calling getBookByTitle method
     // every 0.5s if the value changed
-    keyValue
+      keyValue
       .pipe(
         debounceTime(500),
         distinctUntilChanged(),
-        filter(keyvalue => keyvalue !== ""),
+        filter(keyvalue => keyvalue !== ''),
         tap( () => this.isLoading = true),
         switchMap(title => this.booksService.getBookByTitle(title)),
         takeUntil(this.destroy$)
@@ -106,8 +105,9 @@ export class BookListComponent implements OnInit, OnDestroy {
       .subscribe(transformedBookData => {
         console.log(transformedBookData);
         // add the books from returned array to books variable and update booksUpdated Subject
-        if(transformedBookData)
+        if (transformedBookData) {
         this.books = transformedBookData.books;
+        }
         this.isLoading = false;
       });
   }

@@ -1,22 +1,21 @@
 <h3>Könyv keresés</h3>
 <mat-card>
   <app-simple-title-filter
-    (searchedTitleEvent)="simpleTitleSearch($event)"
-  ></app-simple-title-filter>
+    (searchedTitleEvent)="simpleTitleSearch($event)">
+  </app-simple-title-filter>
 
   <app-multi-title-filter
-    (searchedTitleEvent)="multiTitleSearch($event)"
-  ></app-multi-title-filter>
+    (searchedTitleEvent)="multiTitleSearch($event)">
+  </app-multi-title-filter>
 
   <app-running-title-filter
-    (searchedTitleEvent)="runningTitleSearch($event)"
-  ></app-running-title-filter>
+    (searchedTitleEvent)="runningTitleSearch($event)">
+  </app-running-title-filter>
 </mat-card>
 
 <mat-spinner *ngIf="isLoading"></mat-spinner>
 <div class="container-fluid"  *ngIf="!isLoading">
   <div class="row">
-
       <app-book-item
         class="col-6 col-xl-2 col-lg-3 col-md-4 "
         [book]="book"

@@ -1,6 +1,8 @@
 <form (submit)="search(inputForm)" #inputForm="ngForm">
     <mat-form-field>
-      <input matInput placeholder="Keresés" type="text" ngModel name="title" required minlength="3" #title="ngModel" />
+      <label>
+        <input matInput placeholder="Keresés" type="text" ngModel name="title" required minlength="3" #title="ngModel" />
+      </label>
     </mat-form-field>
     <button mat-raised-button color="primary" type="submit">
       Keres

@@ -1,7 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { BooksService } from '../../../books.service';
-import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-simple-title-filter',
@@ -15,14 +13,14 @@ export class SimpleTitleFilterComponent implements OnInit {
   // event for emit the titles we search for
   @Output() searchedTitleEvent =  new EventEmitter<string>();
 
-  constructor(public booksService:BooksService) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
   // emitting the input value to parent
-  search(form: NgForm){
-    if(form.invalid){
+  search(form: NgForm) {
+    if (form.invalid) {
       return;
     }
     this.searchedTitle = form.value.title;

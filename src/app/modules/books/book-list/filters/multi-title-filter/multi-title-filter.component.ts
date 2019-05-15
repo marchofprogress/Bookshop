@@ -1,10 +1,10 @@
-import { Component, OnInit, EventEmitter, Output } from "@angular/core";
-import { NgForm } from "@angular/forms";
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
-  selector: "app-multi-title-filter",
-  templateUrl: "./multi-title-filter.component.html",
-  styleUrls: ["./multi-title-filter.component.css"]
+  selector: 'app-multi-title-filter',
+  templateUrl: './multi-title-filter.component.html',
+  styleUrls: ['./multi-title-filter.component.css']
 })
 export class MultiTitleFilterComponent implements OnInit {
 

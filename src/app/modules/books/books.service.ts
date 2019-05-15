@@ -1,21 +1,22 @@
-import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
-import {  merge, Observable } from "rxjs";
-import { map } from "rxjs/operators";
-import { Book } from "../../shared/models/book.model";
+import {  merge, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { Book } from '../../shared/models/book.model';
+import {environment} from '../../../environments/environment';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class BooksService {
 
   constructor(private http: HttpClient) {}
 
   // setting book objects based on saleability
-  getBookData(book):Book {
+  getBookData(book): Book {
 
-    if (book.saleInfo.saleability == "FOR_SALE") {
+    if (book.saleInfo.saleability === 'FOR_SALE') {
       return {
         id: book.id,
         title: book.volumeInfo.title,
@@ -43,20 +44,18 @@ export class BooksService {
     console.log(queryParams);
     return this.http
       .get<{ items: any }>(
-        "https://www.googleapis.com/books/v1/volumes" + queryParams
+          environment.serverUrl + queryParams
       )
       .pipe(
         map(bookData => {
           console.log(bookData);
-          if(bookData.items){
+          if (bookData.items) {
             return {
               books: bookData.items.map(book => {
                 return this.getBookData(book);
               })
             };
-          }
-          else{return;}
-
+          } else {return; }
         })
       );
   }
@@ -68,7 +67,7 @@ export class BooksService {
     // returning observable
     return this.http
       .get<{ items: any }>(
-        "https://www.googleapis.com/books/v1/volumes" + queryParams
+          environment.serverUrl + queryParams
       )
       .pipe(
         map(bookData => {
@@ -81,14 +80,14 @@ export class BooksService {
       );
   }
 
-  //return an array of observables
+  // return an array of observables
   getRequestBuilder(multibooks: string[]): Observable<any>[] {
     const requests = [];
     multibooks.forEach(title => {
       const queryParams = `?q=${title}`;
       requests.push(
         this.http.get<{ items: any }>(
-          "https://www.googleapis.com/books/v1/volumes" + queryParams
+          environment.serverUrl + queryParams
         )
       );
     });
@@ -97,7 +96,7 @@ export class BooksService {
 
   // emits the books to booksUpdated Subject
   getMultipleBooks(multibooks: string[]) {
-    //build an array of observables(get requests) based on the titles of the books
+    // build an array of observables(get requests) based on the titles of the books
     const requestList: Observable<{ items: any }>[] = this.getRequestBuilder(
       multibooks
     );
