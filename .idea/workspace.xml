@@ -2,90 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cea4a56-3b46-486a-bfe8-f97649502fb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.e2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/e2e/tsconfig.e2e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/docker/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/error/error.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/core/error/error.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/error/error.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/core/error/error.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/interceptors/error-interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/core/interceptors/error-interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/book-cart.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/book-cart.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/book-cart.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/book-cart.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/book-cart.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/book-cart.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/book-cart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/book-cart.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/book-cart.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/book-cart.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/shopping-cart.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/shopping-cart.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-cart/shopping-cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-cart/shopping-cart.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-details/book-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-details/book-details.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-details/book-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-details/book-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-details/book-details.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-details/book-details.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-details/book-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-details/book-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-details/book-details.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-details/book-details.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-item/book-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-item/book-item.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-item/book-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-item/book-item.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-item/book-item.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-item/book-item.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-item/book-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-item/book-item.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-list.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-list.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/book-list.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/book-list.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/multi-title-filter/multi-title-filter.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/running-title-filter/running-title-filter.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/books.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/books.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/books/books.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/books.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/angular-material/angular-material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/angular-material/angular-material.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/navbar/navbar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/navbar/navbar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/navbar/navbar.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/navbar/navbar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/navbar/navbar.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/components/navbar/navbar.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/models/book.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/models/book.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/shared.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/modules/books/book-list/filters/simple-title-filter/simple-title-filter.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/browserslist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02c004b4329a0d99c45abb61a30dadfde61ecf5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06895b2dfff011115a8eded7e3fad29788965566" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c5e37b5d8d7f91166507e9c6da02b3676d55777" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1088baf8428d9a7bc8156dd12f8f36c706adb8b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19968b5bd3810cc371173b71a15645bfc98e370d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/2105aabfaf63fbecd5da07b49e329b312bfc8582" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/217be1d107688dc3caf5d2c1e1ae6aac0a2698bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23939b80a263cfc2d238603e7aef17ba9c6fd918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/277f75047169c917c81a2e63d8f06790c3576095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d66ff82a763bbf3a3707a36c8f7b44d1bb37a1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/302be76b17ec3188653bea112207e65dde129e59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/338140ffa5ff8553f6a2dbbd2aeb641535dfbde0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/4128c559d7b18f7f296db83786e17bedc0f12918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49dc9ca50d9043e27445ed78a54bacefe80154c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4afa24568486ea4deac6c2799d0636eb474814fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/562bd6accf82884b4e510746b9dd95ba54709e06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c975582791da6f060261188096d6aad85db6e09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63026eea276271628b1d5e74b604cf17191ad507" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66ecf947a091317971227c27ecd6dab71766c2be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f9d98ca6b2005fc0cd4b0f000b670b16bf3c496" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fd35c988c6ab19d90be440792fa8c817dd8dc67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73b18d81933ac79c8b2bf5514a8324d11009e636" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77798589ab816207f17d382e03468d20be7017a5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b78538e25a8161b46d7f7b16210b6006178dda3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d2fb7a380b11919a85bb0cb88a5d94e335647d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9708ee625f4856768e6fad5f084ecbb5b3e404a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9ce192d58aed24684b3e3ac03fde9428be89ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bad05bd7740864c9266a5d2dfe1552349c20ab3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e665cec867bbf89b5afc6420722808938387dc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1fd3d397f46d905e33df860b07af67a09954c36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a70901e23feffa80ad31383e6737cda4d5f11e8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa437fdd4b7f340e2c9bbe139ca308629dd45380" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a7921ee43e21ede3086b8d69132598615c6d95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b64301b168b1ad6dd9204177a49946f757234a0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf851c395f80c8d0b1b02ca0330589caaa77d80d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c35805ab8789b34b04a86a786fe472d178135611" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7c271980f0e24b4ca8172b2c15322f125123fad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca5478aa7878ceb8a48314e7f1781a2e7cd468e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc90524b3ac2ba17583fd4c057fda9a3be776794" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc60ea9ee1ff6246bf342463277d5b914db2883d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcba6fb4bcbc7960d805b5108110ef5d7e5683ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df165edba741aa1c1451cac7ae12ddf9dc5cc417" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e92338c6e49ff34f9022980cc89bbebd60974bad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f402d5c7393a14fc316141ecd221737135f29bcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe0ea8c642bdcc721c7c5a4177c93a0ab7f7ef68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe504beba6584e66b8d49c15b3e93537b6e6d031" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -100,26 +69,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -135,8 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
+            <state relative-caret-position="487">
               <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -144,17 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="264">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -223,14 +187,17 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/server/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/.dockerignore" />
+        <option value="$PROJECT_DIR$/server/.env" />
         <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="485" />
-    <option name="y" value="4" />
+    <option name="x" value="216" />
+    <option name="y" value="58" />
     <option name="width" value="1564" />
     <option name="height" value="1047" />
   </component>
@@ -254,6 +221,11 @@
             <path>
               <item name="Bookshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bookshop" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bookshop" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -266,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../compareweb2016" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -280,16 +252,16 @@
     <property name="ts.external.directory.path" value="C:\Users\oravec\WebstormProjects\Angular\Bookshop\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\docker" />
-      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop" />
-      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\frontend" />
-      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\dist\BookShop" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\server" />
       <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\server\docker" />
       <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\src\assets\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop" />
+      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\docker" />
+      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\frontend" />
+      <recent name="C:\Users\oravec\WebstormProjects\Angular\Bookshop\dist\BookShop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="RunManager" selected="Docker.docker-compose.yml.web: Compose Deployment">
     <configuration name="Tests" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/src/karma.conf.js" />
       <working-directory value="$PROJECT_DIR$" />
@@ -323,6 +295,19 @@
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.web: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -333,6 +318,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.web: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -349,15 +339,17 @@
       <workItem from="1557926683899" duration="8415000" />
       <workItem from="1557990312680" duration="18850000" />
       <workItem from="1558014470052" duration="2324000" />
-      <workItem from="1558082323657" duration="12479000" />
+      <workItem from="1558082323657" duration="13026000" />
+      <workItem from="1558332507173" duration="10487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47320000" />
+    <option name="totallyTimeSpent" value="58354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="485" y="4" width="1564" height="1047" extended-state="0" />
+    <frame x="216" y="58" width="1564" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23656619" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -373,7 +365,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" x="11" y="416" width="1898" height="208" id="Terminal" order="10" sideWeight="0.5013106" side_tool="true" visible="true" weight="0.40765765" />
+      <window_info active="true" anchor="bottom" x="11" y="416" width="1898" height="208" id="Terminal" order="10" sideWeight="0.5013106" side_tool="true" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49894625" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -385,13 +377,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/@angular/material/progress-spinner/typings/progress-spinner.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1992">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -687,29 +672,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -719,20 +690,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/angular.json">
+    <entry file="file://$PROJECT_DIR$/server/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="192">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+    <entry file="file://$PROJECT_DIR$/server/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="339">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -743,17 +714,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="264">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="168">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
